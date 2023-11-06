@@ -37,7 +37,7 @@ Pour l'image de la navbar, je l'ai géré avec background repeat de l'image `bkg
 Pour le `contenu_principal` ainsi que la `colonne_droite`, j'ai utilisé classe `row` et la grid de bootstrap pour la gestion des layouts sur PC, Tablette et Smartphone.
 
 La section globale du site est ici divisée en deux parties principales : `main` (à gauche) et `aside` (à droite)
-```css
+```txt
 col-xl : device supérieur ou égal à 1200px
 col-md : device supérieur ou égal à 768px
 col-xs : device inférieur à 576px
