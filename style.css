@@ -1,6 +1,7 @@
   /* Style pour les ordinateurs */
   @media screen and (min-width: 1024px) and (max-width: 2000px) {
 
+
   .navbar {
     display: block;
     text-align: center;
@@ -116,6 +117,292 @@
 
 #contenu_principal h1 {
 	background: #0E5F96;
+  width: 100%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/* margin: 0px 0px 3px 0px; */
+  margin-right: 25%;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 8px 8px 0px 0px;
+}
+
+#colonne_droite h3 {
+	padding-top: 0.6em;
+	padding-bottom: 0.4em;
+	font-size: 1em;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 8px 8px 0px 0px;
+}
+
+.col-xl-3 {
+    width: 100%;
+}
+
+#colonne_droite .rubrique1 h3{
+	background: #9C2F03;
+}
+#colonne_droite .rubrique2 h3{
+	background: #0E5F96;
+}
+.annonce {
+	font-weight:bold;
+	font-size: small;
+	color: #0E5F96;
+	padding-top: 3px;
+	padding-bottom: 6px;
+}
+#contenu_principal.tableau_de_bord a {
+	font-weight:bold;
+	text-decoration: none;
+	display:block;
+}
+#contenu_principal.tableau_de_bord a:hover {
+	text-decoration: underline;
+}
+#contenu_principal .rubriques a img {
+	border-style: none;
+	vertical-align: middle;
+	margin : 5px 0px 5px 2px;
+}
+#contenu_principal .rubriques ul, #colonne_droite .rubriques ul {
+	margin-left: 0;
+	padding-left: 0;
+	padding-top: 15px;
+}
+#contenu_principal .rubriques ul li, #colonne_droite .rubriques ul li {
+	list-style-position: outside;
+	list-style-type: none;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.rubriques {
+	margin-bottom: 1em;
+	color: #535353;
+	border-bottom: 1px solid #F0F5F8;
+	background: #F1F6F8;
+	border-radius: 0px 0px 1em 1em;
+	box-shadow: 0px 2px 0px #DADADA;
+}
+/* #colonne_droite a {
+	text-decoration:none;
+  font-weight: lighter;
+	color: #535353;
+} */
+
+/*  */
+        #colonne_droite a {
+            text-decoration:none;
+            color: #535353;
+        }
+        #colonne_droite a:hover {
+            text-decoration:underline;
+        }
+        #colonne_droite a .date {
+            color: #9C2F03;
+            font-weight:bold;
+        }
+        #colonne_droite .bottom_link {
+            text-align: right;
+            line-height: 1.7em;
+            clear: both;
+            margin-top: 0.5em;
+            padding-right:10px;
+        }
+        #colonne_droite .rubrique1 .bottom_link a{
+            color: #9C2F03;
+            font-weight:bold;
+        }
+        #colonne_droite .rubrique2 .bottom_link a{
+            color: #0E5F96;
+            font-weight:bold;
+        }
+
+
+/*  */
+
+/* Style de base pour le footer */
+footer {
+  background-color: #FFFFFF;
+  padding: 30px;
+  margin: 0 auto;
+  width: 92%;
+}
+
+/* Style de la première colonne (bleu) */
+.blue-column {
+  background-color: #0077cc; /* Couleur bleue */
+  color: white; /* Texte en blanc */
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Style de la deuxième colonne (bleu foncé) */
+.dark-blue-column {
+  background-color: #003366; /* Couleur bleu foncé */
+  padding: 12px;
+  text-align: center;
+}
+
+.dark-blue-column a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #adadad;
+  text-decoration: none;
+}
+
+/* Grille du Footer */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); 
+  text-align: left; 
+}
+
+.grid > div {
+  padding: 1px;
+  border: 0px solid #ccc;
+}
+
+.grid p {
+  font-weight: bold; 
+}
+
+.grid a {
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+}
+
+        /* Styles pour les tablettes */
+        @media (min-width: 500px) and (max-width: 1023px) {
+    
+ .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .servicepublic {
+    margin-top: 30px;
+    }
+
+  .menu-list {
+    display: flex; /* Utiliser un modèle de boîte flexible pour aligner les éléments horizontalement */
+    justify-content: space-between; /* Répartir l'espace entre les éléments */
+    width: 100%; /* Largeur à 100% pour prendre toute la largeur du site */
+    padding: 0;
+  }
+
+  .menu-list > li {
+    /* background-color: #cddee8; */
+    position: relative;
+    border: 0px solid transparent;
+    flex: 1; /* Partage équitable de l'espace disponible entre les éléments */
+    list-style-type: none;
+  }
+
+  .menu-list > li > a {
+    color: #0059cd;
+    font-size: 12px;
+    height: 45px;
+    background-color: #cddee8;
+    background-image: url('assets/bkg_menu_demarches.jpg'); /* Remplacez 'votre-image.jpg' par le chemin de votre image. */
+    background-repeat: repeat;
+    padding: 20px;
+    
+    text-decoration: none; /* Supprimer le soulignement du texte */
+    padding: 10px;
+    display: block;
+    text-align: center;
+    width: 100%; /* Largeur à 100% pour occuper tout l'espace disponible */
+  }
+
+  .menu-list ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #eef3f7;
+    text-align: left;
+    padding: 0;
+    width: 100%; /* Largeur à 100% pour prendre toute la largeur du site */
+  }
+
+  .menu-list li:hover ul {
+    display: block;
+  }
+
+  .menu-list ul li {
+    display: block;
+    margin: 0; /* Réduire la marge */
+    list-style-type: none;
+  }
+
+  .menu-list ul li a {
+    display: block;
+    width: 100%; /* Largeur à 100% pour remplir le conteneur du sous-menu */
+    text-decoration: none; /* Supprimer le soulignement du texte */
+    padding: 1px;
+    color: #0059cd;
+  }
+
+  .menu-list li:hover a {
+    color: #0059cd; /* Couleur du texte au survol du menu principal */
+  }
+
+  .menu-list ul li:hover > a {
+    background-color: #eef3f7;
+  }
+
+  .menu-list ul li a:hover {
+    color: #0599ff; /* Couleur du texte au survol du sous-menu */
+    text-decoration: none; /* Supprimer le soulignement du texte au survol du sous-menu */
+  }
+
+  header {
+    background-color: #cddee8; /* Couleur de fond du menu */
+    background-image: url('assets/bg-contenu2.png'); /* Remplacez 'votre-image.jpg' par le chemin de votre image. */
+    background-repeat: repeat;
+    padding: 10px;
+  }
+
+  header #recherche_conteneur {
+      margin-left: 75%;
+  }
+
+        /* Fil d'ariane  */
+        ul.breadcrumb {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.breadcrumb li {
+          display: inline;
+          margin-right: 10px;
+        }
+
+        ul.breadcrumb li:not(:last-child):after {
+          content: " > ";
+          color: #999; /* Couleur du séparateur entre les éléments */
+        }
+
+        ul.breadcrumb a {
+          text-decoration: none;
+          color: #0077cc; /* Couleur des liens dans le fil d'Ariane */
+        }
+
+#contenu_principal h1 {
+  width: 100%;
+	background: #0E5F96;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	/* margin: 0px 0px 3px 0px; */
@@ -188,107 +475,78 @@
 } */
 
 /*  */
-#colonne_droite ul li a {
-  color: #535353;
-  font-weight: normal; /* Réglez le poids de la police sur normal */
-}
-
-#colonne_droite a:hover {
-  text-decoration: underline;
-}
-
-#colonne_droite a .date {
-  color: #9C2F03;
-  font-weight: bold;
-}
-
-/* Ciblez le texte spécifique que vous souhaitez garder en normal */
-#colonne_droite .rubrique1 ul li a,
-#colonne_droite .rubrique2 ul li a {
-  font-weight: normal; /* Réglez le poids de la police sur normal */
-}
-
-#colonne_droite .bottom_link a {
-text-align: right;
-	line-height: 1.7em;
-	clear: both;
-	margin-top: 0.5em;
-	padding-right:10px;
-  color: #0E5F96;
-}
-
-#colonne_droite .bottom_link2 a {
-text-align: right;
-	line-height: 1.7em;
-	clear: both;
-	margin-top: 0.5em;
-	padding-right:10px;
-  color: #9C2F03;
-}
-
+        #colonne_droite a {
+            text-decoration:none;
+            color: #535353;
+        }
+        #colonne_droite a:hover {
+            text-decoration:underline;
+        }
+        #colonne_droite a .date {
+            color: #9C2F03;
+            font-weight:bold;
+        }
+        #colonne_droite .bottom_link {
+            text-align: right;
+            line-height: 1.7em;
+            clear: both;
+            margin-top: 0.5em;
+            padding-right:10px;
+        }
+        #colonne_droite .rubrique1 .bottom_link a{
+            color: #9C2F03;
+            font-weight:bold;
+        }
+        #colonne_droite .rubrique2 .bottom_link a{
+            color: #0E5F96;
+            font-weight:bold;
+        }
 
 /*  */
 
 /* Style de base pour le footer */
-footer {
-  background-color: #FFFFFF;
-  padding: 30px;
-}
+        /* Style de base pour le footer */
+        footer {
+          background-color: #FFFFFF;
+          margin: auto;
+          width: 85%;
+        }
 
-/* Style de la première colonne (bleu) */
-.blue-column {
-  background-color: #0077cc; /* Couleur bleue */
-  color: white; /* Texte en blanc */
-  padding: 20px;
-  text-decoration: none;
-}
+        /* Style de la première colonne (bleu) */
+        .blue-column {
+          background-color: #0077cc; /* Couleur bleue */
+          color: white; /* Texte en blanc */
+          padding: 20px;
+        }
 
-/* Style de la deuxième colonne (bleu foncé) */
-.dark-blue-column {
-  background-color: #003366; /* Couleur bleu foncé */
-  padding: 12px;
-  text-align: center;
-}
+        /* Style de la deuxième colonne (bleu foncé) */
+        .dark-blue-column {
+          background-color: #003366; /* Couleur bleu foncé */
+          color: white; /* Texte en blanc */
+          padding: 20px;
+        }
 
-.dark-blue-column a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  color: #adadad;
-  text-decoration: none;
-}
+        .dark-blue-column a {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          color: grey; 
+          text-decoration: none;
+        } 
 
-/* Grille du Footer */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr); 
-  text-align: left; 
-}
+        .blue-column p {
+           font-weight: bold; 
+        }
+        
+        .blue-column a {
+          list-style: disc;
+          font-family: Arial, Helvetica, sans-serif;
+          color: white; 
+          text-decoration: none;
+          font-size: 13px;
+        }
 
-.grid > div {
-  padding: 1px;
-  border: 0px solid #ccc;
-}
-
-.grid p {
-  font-weight: bold; 
-}
-
-.grid a {
-  font-size: 12px;
-  color: white;
-  text-decoration: none;
-}
-
-
-
-
-}
-
-        /* Styles pour les tablettes */
-        @media (min-width: 500px) and (max-width: 1023px) {
-    
-        .haha {
-            color: pink;
+        .blue-column li::marker {
+          color: #89b7fc; /* Couleur plus sombre pour la puce */
         }
         
         }
@@ -297,35 +555,54 @@ footer {
         /* Styles pour les smartphones */
         @media screen and (min-width: 0px) and (max-width: 500px) {
 
-        .navbar {
-            background-color: #cddee8; /* Couleur de fond du menu */
-            color: white; /* Couleur du texte du menu */
-        }
+          
+ /* body {
+  width: 100%;
+ } */
 
-        .menu-list li {
-            display: block; /* Afficher les éléments du menu les uns en dessous des autres */
-        }
+       .navbar {
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  width: 100%;
 
-        .menu-list li a {
-            font-size: 16px; /* Taille du texte du menu */
-            text-decoration: none;
-            padding: 10px 15px; /* Espacement entre les éléments du menu */
-            display: block;
-        }
-
-            .menu-list li > ul {
-                background-color: #cddee8; /* Couleur de fond du sous-menu */
-                display: none; /* Masquer les sous-menus par défaut */
-            }
-
-            .menu-list li:hover > ul {
-                display: block; /* Afficher le sous-menu au survol */
-            }
+}
 
 
+#rechercheInput {
+  width: 90%;
+  margin-top: 20px; 
+}
+
+.menu-list li {
+  display: block;
+  position: relative;
+}
+
+.menu-list li a {
+  color: #0059cd;
+  background-color: #cddee8;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  background-image: url('assets/bkg_menu_demarches.jpg');
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.menu-list li > ul {
+  background-color: #cddee8;
+  display: none;
+}
+
+.menu-list li:hover > ul {
+  display: block;
+  
+}
 
           .servicepublic {
-              width: 100%; /* La largeur de l'image occupera 100% de la largeur du conteneur */
+            margin-top: 20px;  
+            width: 80%; /* La largeur de l'image occupera 100% de la largeur du conteneur */
           }
 
           /* Style pour le fil d'Ariane */
@@ -359,10 +636,6 @@ footer {
             font-weight: bold;
             color: white;
             text-transform: uppercase;
-            /* -moz-border-radius-topleft: 8px; */
-            /* -moz-border-radius-topright: 8px; */
-            /* -webkit-border-top-left-radius: 8px; */
-            /* -webkit-border-top-right-radius: 8px; */
             border-radius: 8px 8px 0px 0px;
         }
         #colonne_droite h3 {
@@ -372,10 +645,6 @@ footer {
             color: white;
             text-transform: uppercase;
             font-weight: bold;
-            /* -moz-border-radius-topleft: 8px; */
-            /* -moz-border-radius-topright: 8px; */
-            /* -webkit-border-top-left-radius: 8px; */
-            /* -webkit-border-top-right-radius: 8px; */
             border-radius: 8px 8px 0px 0px;
 
         }
@@ -421,13 +690,7 @@ footer {
             color: #535353;
             border-bottom: 1px solid #F0F5F8;
             background: #F1F6F8;
-            /* -moz-border-radius-bottomleft: 1em; */
-            /* -moz-border-radius-bottomright: 1em; */
-            /* -webkit-border-bottom-left-radius: 1em; */
-            /* -webkit-border-bottom-right-radius: 1em; */
             border-radius: 0px 0px 1em 1em;
-            /* -moz-box-shadow: 0px 2px 0px #dadada; */
-            /* -webkit-box-shadow: 0px 2px 0px #DADADA; */
             box-shadow: 0px 2px 0px #DADADA;
         }
         #colonne_droite a {
@@ -457,10 +720,6 @@ footer {
             font-weight:bold;
         }
 
-        .texte {
-            color: red;
-        }
-
         /* Style de base pour le footer */
         footer {
           background-color: #FFFFFF;
@@ -484,7 +743,7 @@ footer {
         .dark-blue-column a {
           font-family: Arial, Helvetica, sans-serif;
           font-size: 13px;
-          color: white; 
+          color: grey; 
           text-decoration: none;
         } 
 
