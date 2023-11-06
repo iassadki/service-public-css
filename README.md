@@ -37,10 +37,11 @@ Pour l'image de la navbar, je l'ai géré avec background repeat de l'image `bkg
 Pour le `contenu_principal` ainsi que la `colonne_droite`, j'ai utilisé classe `row` et la grid de bootstrap pour la gestion des layouts sur PC, Tablette et Smartphone.
 
 La section globale du site est ici divisée en deux parties principales : `main` (à gauche) et `aside` (à droite)
-
-- col-xl : device supérieur ou égal à 1200px
-- col-md : device supérieur ou égal à 768px
-- col-xs : device inférieur à 576px
+```css
+col-xl : device supérieur ou égal à 1200px
+col-md : device supérieur ou égal à 768px
+col-xs : device inférieur à 576px
+```
 
 - En version PC, j’utilise "col-xl-9". Ici, la colonne occupera 9/12 de l'écran sur des écrans de grande taille (XL).
 - En version tablette, j’utilise "col-md-12". Ici, la colonne occupera 12/12 de l'écran sur des écrans de taille moyenne (MD).
