@@ -284,6 +284,8 @@ footer {
 
         /* Styles pour les tablettes */
         @media (min-width: 500px) and (max-width: 1023px) {
+
+
     
  .navbar {
     display: block;
